@@ -81,6 +81,7 @@ namespace Boolean
             {
                 gameOver = true;   
             }
+            Console.Clear();
 
             //DEBUG
            // Console.WriteLine("(" + x + "," + y + ")");
@@ -90,6 +91,7 @@ namespace Boolean
         static void PlayerDraw()
         {
             Console.SetCursorPosition(x, y);
+            
             Console.Write("#");
         }
 
